@@ -63,12 +63,6 @@ textarea {
 
 .section {
     text-align: center;
-    font-size: 4em;
-    padding: 0 2em;
-}
-
-#fullpage .hola {
-    font-size: 6em;
 }
 
 body {
@@ -84,11 +78,24 @@ body {
     background-position: center center;
 }
 
+a {
+    color: white;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
+
+    .section {
+        font-size: 4em;
+        padding: 0 2em;
+    }
+
+    #fullpage .hola {
+        font-size: 6em;
+    }
 
 }
 
