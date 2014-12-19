@@ -63,6 +63,20 @@ textarea {
 
 .section {
     text-align: center;
+    padding: 0 1em;
+    font-size: 1.5em;
+}
+
+.section.hacer {
+    padding: 0 2.2em;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 5px;
+}
+
+.fp-controlArrow.fp-next {
+    right: 5px;
 }
 
 body {
